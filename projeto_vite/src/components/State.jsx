@@ -16,6 +16,7 @@ export const State = () => {
     <button onClick={() => ( number = 15 )}> Mudar valor</button>
 
     <div>
+        
     <p>Valor: {firstNumber}</p>
 
     <button onClick={() => secondNumber(22)

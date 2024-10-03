@@ -3,6 +3,7 @@ import './App.css'
 import Index from './components/Index'
 import State from './components/State'
 import ListRender from './components/ListRender'
+import PrevState from './PrevState'
 
 function App() {
   
@@ -18,7 +19,8 @@ function App() {
         <Index />
         <State/>
         <ListRender/>
-       
+        <PrevState/>
+        
       </div>
       
     
