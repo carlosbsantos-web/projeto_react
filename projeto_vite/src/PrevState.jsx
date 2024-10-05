@@ -19,7 +19,7 @@ const PrevState = () => {
 
         setUsers((prevUsers) => {
 
-            return prevUsers.filter((users) => randomNumber !== users.id);
+            return prevUsers.filter((user) => randomNumber !== user.id);
         });
 
     }
