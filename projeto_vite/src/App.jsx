@@ -6,9 +6,10 @@ import ListRender from './components/ListRender'
 import PrevState from './PrevState'
 import Eventos from './components/Eventos'
 import Frase from './components/Frase'
+import ChildrenProp from './components/ChildrenProp'
 
-function App() {
-  
+const App = () => {
+ 
 
   return (
     
@@ -25,6 +26,12 @@ function App() {
         <Eventos numero = '1'/>
         <Eventos numero = '2'/>
         <Frase/>
+
+        <ChildrenProp myValue='Teste'>
+
+        <p>Iniciando ChildrenProps</p>
+
+        </ChildrenProp>
         
       </div>
       
